@@ -17,15 +17,11 @@ function islampbroken() {
 }
 
 function lampOn() {
-  if (!islampbroken()) {
     lamp.src = "./img/ligada.jpg";
-  }
 }
 
 function lampOff() {
-  if (!islampbroken()) {
     lamp.src = "./img/desligada.jpg";
-  }
 }
 
 function lampBroken() {
